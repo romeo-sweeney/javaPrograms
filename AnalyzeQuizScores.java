@@ -1,4 +1,5 @@
-package javaAssign;
+// Roméo Sweeney
+// Analyzing quiz scores using different function from BinarySearch library
 
 import java.util.Scanner;
 
@@ -6,10 +7,6 @@ public class AnalyzeQuizScores {
 
    public static void main(String[] args) {
 
-      /////////////////////////////////////////////////////////
-      //
-      // Do not modify the code between this and the other line of //s
-      //
 
       Scanner sc = new Scanner(System.in);
       
@@ -26,11 +23,6 @@ public class AnalyzeQuizScores {
       }
       
       sc.close();
-
-      //
-      // Do not modify anything about this line!
-      //
-      //////////////////////
       
       // Phase 1
       if(BinarySearch.exists(scores, 0, scores.length, 87)){
