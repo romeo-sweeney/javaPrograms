@@ -3,9 +3,11 @@ package javaAssign;
 public class ArrayUtils {
 		   
 	public static int find(int[] a, int lo, int hi, int value) {
-		for (int i = lo; i < hi; i++)
-			if (a[i] == value)
+		for (int i = lo; i < hi; i++) {
+			if (a[i] == value) {
 				return i;
+			}
+		}
 		return -1;
 	}
 	
@@ -15,9 +17,11 @@ public class ArrayUtils {
 
 	public static int count(int[] a, int lo, int hi, int value) {
 		int n = 0;
-		for (int i = lo; i < hi; i++)
-			if (a[i] == value)
+		for (int i = lo; i < hi; i++) {
+			if (a[i] == value) {
 				n++;
+			}
+		}
 		return n;
 	}
 	
@@ -27,9 +31,11 @@ public class ArrayUtils {
 
 	public static int minElement(int[] a, int lo, int hi) {
 		int minIdx = lo;
-		for (int i = lo+1; i < hi; i++)
-			if (a[i] < a[minIdx])
+		for (int i = lo+1; i < hi; i++) {
+			if (a[i] < a[minIdx]) {
 				minIdx = i;
+			}
+		}
 		return minIdx;
 	}
 	
@@ -39,9 +45,11 @@ public class ArrayUtils {
 
 	public static int maxElement(int[] a, int lo, int hi) {
 		int maxIdx = lo;
-		for (int i = lo+1; i < hi; i++)
-			if (a[i] > a[maxIdx])
+		for (int i = lo+1; i < hi; i++) {
+			if (a[i] > a[maxIdx]) {
 				maxIdx = i;
+			}
+		}
 		return maxIdx;
 	}
 	
@@ -50,52 +58,57 @@ public class ArrayUtils {
 	}   
 	
 	public static boolean anyOf(int a[], int value){
-	      for(int i = 0; i < a.length; i++){
-	         if(a[i] == value){
-	            return true;
-	         }
-	      }return false;
+		for(int i = 0; i < a.length; i++){
+			if(a[i] == value){
+				return true;
+	        }
+	    }
+		return false;
 	   }
    
     public static boolean anyOf(int a[], int lo, int hi, int value){
-      for(int i = lo; i < hi; i++){
-         if(a[i] == value){
-            return true;
-         }
-      }return false;
+    	for(int i = lo; i < hi; i++){
+    		if(a[i] == value){
+    			return true;
+    		}
+    	}
+    	return false;
    }
    
     public static boolean allOf(int a[], int value){
-      for(int i = 0; i < a.length; i++){
-         if(a[i] != value){
-            return false;
-         }
-      }return true;
+    	for(int i = 0; i < a.length; i++){
+    		if(a[i] != value){
+    			return false;
+    		}
+    	}
+    	return true;
    }
    
     public static boolean allOf(int a[], int lo, int hi, int value){
-      for(int i = lo; i < hi; i++){
-         if(a[i] != value){
-            return false;
-         }
-      }return true;
+    	for(int i = lo; i < hi; i++){
+    		if(a[i] != value){
+    			return false;
+    		}
+    	}
+    	return true;
    }
 
     public static boolean noneOf(int a[], int value){
-      for(int i = 0; i < a.length; i++){
-         if (a[i] == value){
-            return false;
-         }
-      }return true;   
-   }
+    	for(int i = 0; i < a.length; i++){
+    		if (a[i] == value){
+    			return false;
+    		}
+    	}
+    	return true;   
+    }
    
     public static boolean noneOf(int a[], int lo, int hi, int value){
-      for(int i = lo; i < hi; i++){
-         if (a[i] == value){
-            return false;
-         }
-      }return true;   
-   }
-
+    	for(int i = lo; i < hi; i++){
+    		if (a[i] == value){
+    			return false;
+    		}
+    	}
+    	return true;   
+    }
 }
 
