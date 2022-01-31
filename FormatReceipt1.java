@@ -1,3 +1,6 @@
+// Roméo Sweeney
+// This program prints out a formatted receipt with given input
+
 import java.util.Scanner;
 
 public class FormatReceipt1 {
