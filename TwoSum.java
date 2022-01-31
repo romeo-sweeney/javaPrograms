@@ -1,8 +1,8 @@
+// Roméo Sweeney 
+//  This program reads an array, and then checks to see how many distinct pairs of numbers in the array add up to a given value.
+
 import java.util.Scanner;
 
-// 10
-// 1    5   -3  -8  1   -7  4   9   4   -9
-// 6
 public class TwoSum {
 
 	public static void main(String[] args) {
