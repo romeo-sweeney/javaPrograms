@@ -1,5 +1,3 @@
-package javaAssign;
-
 public class ArrayUtils {
 		   
 	public static int find(int[] a, int lo, int hi, int value) {
@@ -66,49 +64,49 @@ public class ArrayUtils {
 		return false;
 	   }
    
-    public static boolean anyOf(int a[], int lo, int hi, int value){
-    	for(int i = lo; i < hi; i++){
-    		if(a[i] == value){
-    			return true;
+   	public static boolean anyOf(int a[], int lo, int hi, int value){
+    		for(int i = lo; i < hi; i++){
+    			if(a[i] == value){
+    				return true;
+    			}
     		}
-    	}
-    	return false;
-   }
+    		return false;
+   	}
    
-    public static boolean allOf(int a[], int value){
-    	for(int i = 0; i < a.length; i++){
-    		if(a[i] != value){
-    			return false;
+    	public static boolean allOf(int a[], int value){
+    		for(int i = 0; i < a.length; i++){
+    			if(a[i] != value){
+    				return false;
+    			}
     		}
-    	}
-    	return true;
-   }
+    		return true;
+  	 }
    
-    public static boolean allOf(int a[], int lo, int hi, int value){
-    	for(int i = lo; i < hi; i++){
-    		if(a[i] != value){
-    			return false;
+   	 public static boolean allOf(int a[], int lo, int hi, int value){
+    		for(int i = lo; i < hi; i++){
+    			if(a[i] != value){
+    				return false;
+    			}
     		}
-    	}
-    	return true;
-   }
+    		return true;
+  	 }
 
-    public static boolean noneOf(int a[], int value){
-    	for(int i = 0; i < a.length; i++){
-    		if (a[i] == value){
-    			return false;
+    	public static boolean noneOf(int a[], int value){
+    		for(int i = 0; i < a.length; i++){
+    			if (a[i] == value){
+    				return false;
+    			}
     		}
-    	}
-    	return true;   
-    }
+    		return true;   
+   	 }
    
-    public static boolean noneOf(int a[], int lo, int hi, int value){
-    	for(int i = lo; i < hi; i++){
-    		if (a[i] == value){
-    			return false;
+   	 public static boolean noneOf(int a[], int lo, int hi, int value){
+    		for(int i = lo; i < hi; i++){
+    			if (a[i] == value){
+    				return false;
+    			}
     		}
-    	}
-    	return true;   
-    }
+    		return true;   
+   	 }
 }
 
