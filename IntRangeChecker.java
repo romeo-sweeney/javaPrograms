@@ -1,3 +1,6 @@
+// Roméo Sweeney
+// ADT that checks integers against a half-open range provided to the constructor.
+
 import java.util.Scanner;
 
 public class IntRangeChecker {
