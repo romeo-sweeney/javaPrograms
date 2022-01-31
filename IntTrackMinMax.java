@@ -1,3 +1,6 @@
+// Roméo Sweeney
+// ADT that tracks if it's a minimum or maximum value.
+
 import java.util.Scanner;
 
 public class IntTrackMinMax { 
