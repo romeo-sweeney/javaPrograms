@@ -1,5 +1,3 @@
-package javaAssign;
-
 public class BinarySearch {
 
     /*
