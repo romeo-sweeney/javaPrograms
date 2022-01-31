@@ -1,3 +1,4 @@
+// Library of array utility functions
 public class ArrayUtils {
 		   
 	public static int find(int[] a, int lo, int hi, int value) {
