@@ -1,3 +1,6 @@
+// Roméo Sweeney
+// Program that creates two matrices and computes operations.
+
 import java.util.Scanner;
 
 public class Matrices {
