@@ -1,5 +1,3 @@
-package javaAssign;
-
 import java.util.Scanner;
 
 public class FormatReceipt1 {
