@@ -1,3 +1,6 @@
+// Roméo Sweeney
+// This program lets a user create their own bank account and perform certain types of actions.
+
 import java.util.Scanner;
 
 public class MyBank {
@@ -65,11 +68,6 @@ public class MyBank {
 		return String.format("Hello, %s, your balance in your checkings and savings accounts"
 				+ "is: $%.2f", this.accountHolderName, this.checkingsAmt+this.savingsAmt);
 	}
-
-
-
-
-
 
 
 	public static void main(String[] args) {
